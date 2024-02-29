@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+   width: 400px;
+   height: 30px;
+   line-height: 30px;
+   padding-top: 25px;
+   font-size: 25px;
+   padding-left: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    background-color: #2c3e50;
+    
+}
+.menu{
+    width: 100%;
+    display: flex;
+    margin: 1%;
+   justify-content: flex-end;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    
+    
+    
+}
+.text1{
+    height: 200px;
+    font-size: 30px;
+    margin-left: 30px;
+    width: 400px;
+    
+}
+ a:hover{
+    color:#1abc9c;
+ }
+ .main1{
+    height: 650px;
+    background-color: #1abc9c;;
+ }
+
+ .img1{
+    width: 300px;
+    height: 450px;
+ }
+
+ .img1 img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .main1{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+ }
+ .img1{
+    margin: 15px auto;
+    margin-top: 0;
+ }
+ .main1 .bold{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ }
+ 
+.item6{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row !important;
+   position: relative;
+}
+
+.item6 .box{
+   width: 26%;
+   position: relative;
+   margin: 1%;
+}
+
+.item6 .box .img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+
+
+.fon{
+   background-color: #1abc9c;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   transition: 0.5s;
+   color:white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 15px;
+    opacity: 0;
+   
+}
+.item6 div h2{
+ font-size: 150px;
+ font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+ margin-top: 50px;
+}
+.main2{
+   text-align: center;
+   margin-top: 50px;
+}
+.main2 h1{
+  
+   font-size: 60px;
+   color: #2c3e50;
+   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.box:hover .fon{
+   background-color: #1abc9c;
+   opacity: 1;
+}
+
+.esas-div3{
+   background-color: #1abc9c;
+   width: 100%;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+.line div{
+   width: 100px;
+   height: 4px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   margin: 1%;
+}
+.line{
+   
+   display: flex;
+   justify-content: center;
+  
+}
+
+.esas3{
+   display: flex;
+}
+
+.text{
+   width: 400px;
+   min-height: 90px;
+   padding: 30px;
+}
+.t1{
+   justify-content: center;
+   align-items: center;
+   padding-top: 60px;
+   display: flex;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+   padding-right: 0px;
+  
+}
+
+.son {
+  margin-top: 40px;
+   width: 100%;
+   height: 80px;
+   background-color: #1abc9c;
+}
+.son h1{
+   text-align: center;
+   padding-top: 50px;
+   color: white;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+}
+.line i{
+   font-size: 30px;
+   color: white;
+}
+
+.son1{
+   width: 100%;
+   height: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1abc9c;
+}
+.button{
+   width: 200px;
+   height: 40px;
+   border: white 2px solid;
+   text-align: center;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.button .phov,.fa-download{
+   color: white !important;
+}
+.button:hover {
+   background-color: white ;
+   
+} 
+.button:hover .phov,.button:hover .fa-download{
+   color: rgb(0, 0, 0) !important;
+}
+
+
+.son2 {
+   margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    
+ }
+ .son2 h1{
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+ }
+ .line1 i{
+    font-size: 30px;
+    color:  #2c3e50;
+ }
+
+ .line1 div{
+   width: 100px;
+   height: 4px;
+ background-color: #2c3e50;
+   display: flex;
+   margin: 1%;
+}
+.line1{
+   
+   display: flex;
+   justify-content: center;
+  
+}
+
+.esas-div4{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.item7{
+   display: flex;
+   flex-direction: column;
+   margin: 1%;
+   width: 500px;
+   padding-top: 50px;
+ margin: 15px auto;
+  
+   
+}
+.send{
+   width: 60px !important;
+   height: 60px !important; 
+   background-color: #1abc9c !important;
+   color: white !important;
+   border-radius: 5px !important;
+   border: none !important;
+   margin-top: 20px !important;
+}
+.send:hover{
+   background-color: #2c3e50;
+}
+.item7 input{
+   height: 60px;
+   width: 700px;
+   border: none;
+   border-bottom: 2px solid black;
+   
+
+}
+.item7 label{
+   color: gray;
+   font-size: 20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+textarea{
+   border: none;
+   border-bottom: 2px solid black;
+   width: 700px;
+}
+.son3{
+   width: 100%;
+   height: 200px;
+   background-color: #2c3e50;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   
+   margin-top: 90px;
+   padding-top: 20px;
+}
+.item4{
+   /* display: flex; */
+   margin: 1%;
+}
+.social-group{
+   display: flex;
+  
+}
+.item4 .itt{
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   border-color: aliceblue;
+   border-style: solid;
+   /* margin-top: 20px; */
+  margin-right: 15px;
+  line-height: 50px;
+  text-align: center;
+}
+.item4 a{
+   color: #1abc9c;
+}
+.item4 h4{
+   font-size: 25px;
+   padding-bottom: 20px;
+   font-family: "Montserrat", sans-serif;;
+}
+
+.item4 p{
+  font-size: 20px;
+}
+.foot{
+   width: 100%;
+   height: 50px;
+   background-color: #0a0c0d;
+   color: white;
+   text-align: center;
+   line-height: 50px;
+   font-size: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main1 .line1 div{
+  background-color: white;
+}
+
+.main1 .line1 i{
+   color: white;
+}
+.item7 input:focus{
+   outline: none;
+}
+
+.item7 textarea:focus{
+   outline: none ;
+   
+}
